@@ -1,9 +1,9 @@
 return {
-	bot_api_key = "", --Please add your bot api key here!
+	bot_api_key = "366533767:AAG1uRPpzXL3BD5myUN-NcbD2byH38eetzg", --Please add your bot api key here!
 	cmd = '^[/!#]',
 	allowed_updates = {"message", "edited_message", "callback_query"},
 	db = 2, --default redis db: 0
-	superadmins = {23646077, 278941742},
+	superadmins = {209333197},
 	log = {
 		chat = -1001089188566, --Your log chat, where your bot must be added!
 		admin = 23646077, --The admin.
@@ -28,9 +28,9 @@ return {
 		realm_max_members = 60,
 		realm_max_subgroups = 6
 	},
-	channel = '@groupbutler_beta', --channel username with the '@'
-	source_code = 'https://github.com/RememberTheAir/GroupButler/tree/beta',
-	help_groups_link = 'telegram.me/GBgroups',
+	channel = '@PersianTdTch', --channel username with the '@'
+	source_code = '@PersianTdTch',
+	help_groups_link = 'telegram.me/PersianTdTch',
 	plugins = {
 		'onmessage', --THIS MUST BE THE FIRST: IF AN USER IS FLOODING/IS BLOCKED, THE BOT WON'T GO THROUGH PLUGINS
 		'antispam', --SAME OF onmessage.lua
